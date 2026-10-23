@@ -1,0 +1,39 @@
+.navbar {
+  background: var(--sw-dark);
+  padding: 0 2rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--sw-dark-mid);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.navbar-name {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+.navbar-divider {
+  color: var(--sw-dark-mid);
+  font-weight: 300;
+}
+.navbar-product {
+  color: var(--sw-teal);
+  font-weight: 600;
+  font-size: 15px;
+}
+.navbar-tagline {
+  color: var(--sw-teal);
+  font-size: 13px;
+  opacity: 0.6;
+}
