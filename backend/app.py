@@ -15,6 +15,7 @@ CORS(
         "http://localhost:5173",
         "https://uptimewatch.stackwiseza.co.za",
         "https://uptime-watch-*.vercel.app",
+        "https://uptime-watch-ruddy.vercel.app",
     ],
 )
 
